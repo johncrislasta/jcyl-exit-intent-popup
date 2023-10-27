@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+#exit_intent_popup {
+    justify-content: initial;
+    padding: 4%;
+}
+
+#exit_intent_popup__content {
+    background: black;
+    background-image: url('../img/1553126327-bg-conversion-play-popups-light.png');
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: cover;
+    max-width: 1200px;
+    width: 100%;
+    padding: 70px 120px;
+    box-sizing: border-box;
+}
+
+.cf-close {
+    all: initial;
+    background: #f2f5f9;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    line-height: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.cf-close svg {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.cf-container {
+    display: flex;
+}
+
+.cf-col-md-5,
+.cf-col-md-7 {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+
+    .cf-col-md-5 {
+        width: 41.66666667%;
+        padding-right: 10px;
+    }
+    .cf-col-md-7 {
+        width: 58.33333333%;
+    }
+}
+
+.cf-container h2,
+.cf-container h3 {
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 10px 0;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cf-container h2 {
+    font-size: 30px;
+    font-family: Inter, sans-serif;
+}
+
+.cf-container h3 {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.cf-container h4 {
+    font-size: 10px;
+    font-family: Inter, sans-serif;
+    line-height: 10px;
+    color: rgb(189, 195, 199);
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.cf-container h4 a {
+    color: rgb(189, 195, 199);
+    text-decoration: underline;
+}
+
+.cf-container h3 strong {
+    font-size: 14px;
+}
+
+/* Form */
+.cf-form {
+    padding-top: 15px;
+}
+
+.cf-form input {
+    border-radius: 3px;
+    display: inline;
+    font-style: normal;
+    width: 100%;
+    max-width: 100%;
+    min-width: initial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2F2F2F;
+    outline-color: transparent;
+    outline-style: none;
+    background: #FFF;
+    font-weight: 400;
+    border: 1px solid #DBDBDB;
+    line-height: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    height: initial;
+    position: initial;
+    overflow: initial;
+    margin: initial;
+    margin-bottom: 10px;
+    vertical-align: top;
+    font-family: inherit;
+    padding: 11px 0px 9px 10px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #dedede;
+    opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #dedede;
+}
+
+.cf-form input.cf-error {
+    box-shadow: 0 0 5px rgb(241 124 105 / 49%);
+    border-color: #F17C69;
+}
+
+.cf-button {
+    background: #003fff;
+    color: #fff;
+    border-color: #003fff;
+    min-width: 100%;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    padding: 8px 15px 10px;
+
+    display: inline-block;
+    touch-action: manipulation;
+    -webkit-box-sizing: border-box;
+    outline-color: transparent;
+    outline-style: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0;
+    text-transform: none;
+    letter-spacing: initial;
+    height: initial;
+    border: initial;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.cf-button:hover {
+    background: rgba(0,63,255,0.00);
+    background-color: rgba(0, 63, 255, 0);
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Right image */
+.cf-container img {
+    width: 100%;
+}
+
+/* Utilities */
+.text-center {
+    text-align: center;
+}
